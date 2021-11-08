@@ -7,47 +7,33 @@
 body{
     /* font-family: 'Inconsolata', monospace; */
     font-family: 'Zen Kurenaido', sans-serif;
-}
-
-.container{
-    background: url(../images/background.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    height: 100vh;
+    color: #000;
+    background: url(../images/day.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
-.time{
-    background-color: darkcyan;
+#time{
+    font-size: 8rem;
 }
 
-.time h2{
-    font-size: 5em;
+h1{
+    margin-bottom: 3rem;
 }
 
-.greeting{
-    background-color: darkolivegreen;
+h2{
+    margin-bottom: 0.5rem;
+    opacity: 0.8;
 }
 
-.greeting p{
-    font-size: 2em;
-}
-
-.question{
-    background-color: goldenrod;
-}
-
-.question p{
-    font-size: 1.8em;
-}
-
-.task{
-    background-color: indianred;
-}
-
-.task p{
-    font-size: 1.8em;
+@media (max-widht:700px){
+    #time{
+        font-size: 6rem;
+    }
 }
