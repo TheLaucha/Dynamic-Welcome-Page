@@ -56,7 +56,7 @@ function setBgGreet(){
         body.style.color = '#fff'
     }else{
         // Night
-        body.style.background = 'url(../images/night.jpg)'
+        body.style.background = 'url(./../images/night.jpg)'
         body.style.backgroundPosition = 'center'
         body.style.backgroundSize = 'cover'
         greeting.textContent = 'Good Night'
