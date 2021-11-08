@@ -17,6 +17,7 @@ body{
     background: url(../images/day.jpg) center cover;
     background-position: center;
     background-size: cover;
+    background-color: darkcyan;
 }
 
 #time{
