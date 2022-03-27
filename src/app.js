@@ -56,7 +56,7 @@ function setBgGreet(){
         body.style.color = '#fff'
     }else{
         // Night
-        body.style.backgroundImage = 'url(../images/night.jpg)'
+        body.style.backgroundImage = 'url(https://images.unsplash.com/photo-1528353518104-dbd48bee7bc4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80)'
         body.style.backgroundPosition = 'center'
         body.style.backgroundSize = 'cover'
         greeting.textContent = 'Good Night'
