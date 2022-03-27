@@ -43,17 +43,18 @@ function setBgGreet(){
 
     if(hour < 12){
         // Morning
-        body.style.background = 'url(../images/day.jpg)'
+        body.style.background = 'url(https://images.unsplash.com/photo-1454916286212-0ea211dc68d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)'
         body.style.backgroundPosition = 'center'
         body.style.backgroundSize = 'cover'
         greeting.textContent = 'Good Morning'
+        body.style.color = '#000'
     }else if (hour < 20){
         // Afternoon
-        body.style.background = 'url(../images/afternoon.jpg)'
+        body.style.background = 'url(https://images.unsplash.com/photo-1619589032701-b20a3e33fde9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80)'
         body.style.backgroundPosition = 'center'
         body.style.backgroundSize = 'cover'
         greeting.textContent = 'Good Afternoon'
-        body.style.color = '#fff'
+        body.style.color = '#000'
     }else{
         // Night
         body.style.backgroundImage = 'url(https://images.unsplash.com/photo-1528353518104-dbd48bee7bc4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80)'
